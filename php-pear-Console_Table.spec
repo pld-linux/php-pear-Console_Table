@@ -23,7 +23,7 @@ Provides methods such as addRow(), insertRow(), addCol() etc to build
 Console tables. Can be with or without headers, and has various
 configurable options.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Dostarcza metod, takich jak addRow(), insertRow(), addCol(), itp. do
