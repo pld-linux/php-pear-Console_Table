@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - makes it easy to build console style tables
-Summary(pl.UTF-8):   %{_pearname} - proste tworzenie tabel konsolowych
+Summary(pl.UTF-8):	%{_pearname} - proste tworzenie tabel konsolowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.5
 Release:	1
@@ -37,7 +37,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
