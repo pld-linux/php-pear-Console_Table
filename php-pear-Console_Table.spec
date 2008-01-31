@@ -3,16 +3,15 @@
 %define		_subclass	Table
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - makes it easy to build console style tables
 Summary(pl.UTF-8):	%{_pearname} - proste tworzenie tabel konsolowych
 Name:		php-pear-%{_pearname}
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	b928e7ac3eae13e70f2ead13b80e5da4
+# Source0-md5:	ef649afa2ed9fdc25f37790eb0495330
 URL:		http://pear.php.net/package/Console_Table/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
