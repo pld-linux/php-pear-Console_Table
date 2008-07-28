@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - makes it easy to build console style tables
 Summary(pl.UTF-8):	%{_pearname} - proste tworzenie tabel konsolowych
 Name:		php-pear-%{_pearname}
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	f0e7db40b48b93fbf6a0ceb637030318
+# Source0-md5:	845d42dbdf402684583e54e335854758
 URL:		http://pear.php.net/package/Console_Table/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
