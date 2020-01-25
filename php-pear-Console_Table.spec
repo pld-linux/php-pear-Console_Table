@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Console_Table
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - makes it easy to build console style tables
 Summary(pl.UTF-8):	%{pearname} - proste tworzenie tabel konsolowych
 Name:		php-pear-%{pearname}
